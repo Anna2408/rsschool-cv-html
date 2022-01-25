@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="cv.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
+        <title>CV HTML CSS</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="container">
+                <a class="header-email" href="mailto:arsenyuk96@mail.ru">arsenyuk96@mail.ru</a>
+                <a class="header-phone" href="tel:+79996975035">+7 9996975035</a>
+            </div>
+        </header>
+
+        <main class="main container">  
+
+            <section class="person main-block-full">
+                <img class="photo" src="img/IMG_0347obr3.jpg">
+                <h1 class="person-title">Anna Arsenyuk</h1>
+            </section>
+
+            <section class="intro main-block-full">
+                <h2>About me</h2>
+                <p>Всю свою жизнь, начиная с 8 лет, я посвятила музыке. Но сейчас, повзрослев, я поняла, что хочу изменить свою жизнь и стать востребованным специалистом. Мой выбор пал на фронтенд, потому что мне нравится видеть результат своей работы сразу и то, что люди напрямую взаимодействуют с тем, что я делаю.</p>
+            </section>
+
+            <section class="skills main-block">
+                <h2 class="skills-title">Skills:</h2>
+                <ul class="skills-list"> 
+                    <li class="skill">HTML</li>
+                    <li class="skill">CSS</li>
+                    <li class="skill">JavaScript (Basic)</li>
+                    <li class="skill">Git</li>
+                </ul>
+            </section> 
+
+            <section class="code main-block">
+                <h2>Code:</h2>
+<pre>
+    function generateRange(min, max, step) {
+        let res = [];
+
+        for (let i = min; i <= max; i = i + step) {
+            res.push(i);
+        }
+
+        return res;  
+    }
+</pre>
+            </section>
+
+            <section class="education main-block">
+                <h2>Education:</h2>
+                <p>Taganrog Musical College</p>
+            </section>
+
+            <section class="courses main-block">
+                <h2>Courses:</h2>
+                <p>HTML Academy</p>
+            </section>
+
+            <section class="languages main-block">
+                <h2>Languages:</h2>
+                <ul class="languages-list">
+                    <li>English - Elementary</li>
+                    <li>Russian - Native</li>
+                </ul>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <a class="footer-email" href="mailto:arsenyuk96@mail.ru">arsenyuk96@mail.ru</a>
+                <a class="footer-phone" href="tel:+79996975035">+7 9996975035</a>
+            </div>
+        </footer>
+    </body>
+</html>
